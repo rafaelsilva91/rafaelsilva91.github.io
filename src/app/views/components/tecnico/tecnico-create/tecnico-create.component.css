@@ -1,0 +1,20 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.full-width {
+    width: 45%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+button {
+    margin-right: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}

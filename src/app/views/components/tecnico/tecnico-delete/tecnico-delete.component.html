@@ -1,0 +1,27 @@
+<!--<p>tecnico-delete works!</p>-->
+<div class="container mat-elevation-z8">
+    <form class="form">
+        <h3>DELETAR</h3>
+        <mat-form-field class="full-width">
+            <mat-label>Nome</mat-label>
+            <input [(ngModel)]="tecnico.nome" name="nome" disabled maxlength="100" matInput placeholder="Digite o nome..." value="">
+
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+            <mat-label>CPF</mat-label>
+            <input [(ngModel)]="tecnico.cpf" name="cpf" disabled maxlength="15" matInput placeholder="Ex. 000.000.000-00" value="">
+
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+            <mat-label>Telefone</mat-label>
+            <input [(ngModel)]="tecnico.telefone" name="telefone" disabled maxlength="18" matInput placeholder="Ex. (00) 90000-0000" value="">
+
+        </mat-form-field>
+    </form>
+
+    <button class="mat-elevation-z8" (click)="delete()" mat-flat-button color="warn">Deletar</button>
+    <button class="mat-elevation-z8" (click)="cancel()" mat-flat-button color="accent">Cancelar</button>
+
+</div>

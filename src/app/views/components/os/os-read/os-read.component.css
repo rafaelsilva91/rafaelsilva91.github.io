@@ -1,0 +1,54 @@
+table {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+}
+
+.visibility {
+    margin-right: 40px;
+}
+
+.visibility>i {
+    color: #e2e1d7;
+}
+
+.edit {
+    margin-right: 40px;
+}
+
+.edit>i {
+    color: #e2e1d7;
+}
+
+.delete>i {
+    color: #f5f1f2;
+}
+
+.create {
+    margin-left: 10%;
+}
+
+h1 {
+    display: inline;
+    align-items: center;
+    padding-left: 10px;
+}
+
+button {
+    display: block;
+}
+
+td.baixa {
+    color: rgb(19, 236, 74);
+}
+
+td.media {
+    color: yellow;
+}
+
+td.alta {
+    color: red;
+}
